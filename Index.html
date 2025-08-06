@@ -1,15 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Website</title>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-  <header>
-    <h1>Your project</h1>
-    <p>Web Developer in Training</p>
-  </header>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портифолио</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Моё портифолио</h1>
+      <p>Проекты, которым я горжус</p>
+      <nav class="nav-bar">
+        <a href="#projects"> Проекты</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </header>
+    <main id="projects" class="gallery">
+      <div class="card">
+        <h2>Сайт-галерея</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eius
+          provident vitae mollitia aperiam quo eveniet enim, illum cumque fuga.
+        </p>
+      </div>
+
+      <div class="card featured">
+        <h2>Лендинг</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          voluptatem harum magnam culpa impedit alias explicabo, possimus error
+          quo sapiente.
+        </p>
+      </div>
+      <div class="card">
+        <h2>Форма обратной связи</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+          facere?
+        </p>
+      </div>
+    </main>
+    <!--Позиционирование-->
+    <div class="badge absolute">🔥</div>
+    <div class="badge fixed">Наверх</div>
+    <footer class="site-footer" id="contact">
+      <p>
+        &copy; 2025 - Anboz. Tel: +992 93 400 8417
+        <a href="mailto:anboz@mail.ru">Email</a>
+      </p>
+    </footer>
+  </body>
 </html>
